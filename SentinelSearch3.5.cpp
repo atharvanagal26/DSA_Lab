@@ -46,7 +46,7 @@ int main()
 
     if ((i < n - 1) || (last == searchId))
     {
-        cout << "\n--- Product Found! ---\n";
+        cout << "\nProduct Found!\n";
         cout << "Product ID: " << productId[i] << endl;
         cout << "Product Name: " << productName[i] << endl;
         cout << "Product Price: Rs." << price[i] << endl;
