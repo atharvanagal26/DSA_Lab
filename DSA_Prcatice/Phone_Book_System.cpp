@@ -52,7 +52,7 @@ int main() {
         cout << "Successfully inserted in sorted order!\n";
     }
 
-    cout << "\n--- Updated Phonebook ---\n";
+    cout << "\nUpdated Phonebook\n";
     for (int k = 0; k < count; k++) {
         cout << book[k].name << " : " << book[k].phone << "\n";
     }
